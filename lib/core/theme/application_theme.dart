@@ -8,7 +8,7 @@ class ApplicationTheme {
       appBarTheme: const AppBarTheme(
           backgroundColor: primaryColor,
           elevation: 0,
-          toolbarHeight: 85,
+          toolbarHeight: 100,
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
             bottomLeft: Radius.circular(25),
