@@ -11,6 +11,7 @@ class UserFun {
       toFirestore: (value, _) => value.toFirestore(),);
   }
 
+  // add user to database
   static Future<void> createUser (Users user) {
     var userCollection = getUserCollection();
     var docRef = userCollection.doc();
